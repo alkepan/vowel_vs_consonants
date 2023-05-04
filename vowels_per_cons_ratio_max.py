@@ -28,7 +28,9 @@ for word in wordListNew:
 
     if v == 0:
         v = 1
+        c = 1
     elif c == 0:
+        v = 1
         c = 1
 
     v2c = v / c
